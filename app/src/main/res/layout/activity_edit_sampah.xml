@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F5FAF5"
+
+    android:fillViewport="true">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="230dp"
+
+            android:background="#2E7D32"
+
+            android:orientation="vertical"
+
+            android:padding="24dp">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:gravity="center_vertical">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="80dp"
+
+                    android:layout_height="80dp"
+
+                    app:cardCornerRadius="40dp"
+
+                    app:cardElevation="8dp"
+
+                    app:cardBackgroundColor="#FFFFFF">
+
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+
+                        android:text="✎"
+
+                        android:textSize="45sp"
+
+                        android:textColor="#2E7D32"
+
+                        android:gravity="center"/>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="18dp"
+
+                    android:orientation="vertical">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+
+                        android:text="Edit Data"
+
+                        android:textColor="#D7F5DD"
+
+                        android:textSize="15sp"/>
+
+
+
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+
+                        android:text="Sampah"
+
+                        android:textColor="#FFFFFF"
+
+                        android:textSize="28sp"
+
+                        android:textStyle="bold"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="35dp"
+
+                android:text="Perbarui informasi sampah\nagar data tetap akurat"
+
+                android:textColor="#FFFFFF"
+
+                android:textSize="18sp"
+
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+
+            android:layout_marginEnd="20dp"
+
+            android:layout_marginTop="-35dp"
+
+            app:cardCornerRadius="25dp"
+
+            app:cardElevation="10dp">
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+
+                android:padding="22dp">
+
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="Informasi Sampah"
+
+                    android:textColor="#1B5E20"
+
+                    android:textSize="22sp"
+
+                    android:textStyle="bold"/>
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="5dp"
+
+                    android:text="Edit data yang ingin diperbarui"
+
+                    android:textColor="#777777"
+
+                    android:textSize="13sp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="22dp"
+
+                    android:text="Jenis Sampah"
+
+                    android:textColor="#1B5E20"
+
+                    android:textSize="15sp"
+
+                    android:textStyle="bold"/>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="60dp"
+
+                    android:layout_marginTop="8dp"
+
+                    app:cardCornerRadius="16dp"
+
+                    app:cardElevation="2dp"
+
+                    app:cardBackgroundColor="#F8FFF8">
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+
+                        android:gravity="center_vertical"
+
+                        android:paddingHorizontal="15dp">
+
+
+
+                        <TextView
+
+                            android:text="♻"
+
+                            android:textSize="25sp"
+
+                            android:textColor="#2E7D32"
+
+                            android:layout_width="40dp"
+
+                            android:layout_height="wrap_content"/>
+
+
+
+
+                        <EditText
+
+                            android:id="@+id/etJenis"
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+
+                            android:background="@android:color/transparent"
+
+                            android:hint="Masukkan jenis sampah"
+
+                            android:textSize="15sp"
+
+                            android:padding="5dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+
+                    android:text="Kategori Sampah"
+
+                    android:textColor="#1B5E20"
+
+                    android:textSize="15sp"
+
+                    android:textStyle="bold"/>
+
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="60dp"
+
+                    android:layout_marginTop="8dp"
+
+                    app:cardCornerRadius="16dp"
+
+                    app:cardElevation="2dp"
+
+                    app:cardBackgroundColor="#F8FFF8">
+
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+
+                        android:gravity="center_vertical"
+
+                        android:padding="12dp">
+
+
+
+                        <TextView
+
+                            android:text="📂"
+
+                            android:textSize="22sp"
+
+                            android:layout_width="40dp"
+
+                            android:layout_height="wrap_content"/>
+
+
+
+
+                        <Spinner
+
+                            android:id="@+id/spKategori"
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+
+                            android:background="@android:color/transparent"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+
+                    android:text="Berat Sampah (Kg)"
+
+                    android:textColor="#1B5E20"
+
+                    android:textSize="15sp"
+
+                    android:textStyle="bold"/>
+
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="60dp"
+
+                    android:layout_marginTop="8dp"
+
+                    app:cardCornerRadius="16dp"
+
+                    app:cardElevation="2dp"
+
+                    app:cardBackgroundColor="#F8FFF8">
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+
+                        android:gravity="center_vertical"
+
+                        android:paddingHorizontal="15dp">
+
+
+
+                        <TextView
+
+                            android:text="⚖"
+
+                            android:textSize="25sp"
+
+                            android:textColor="#1976D2"
+
+                            android:layout_width="40dp"
+
+                            android:layout_height="wrap_content"/>
+
+
+
+
+                        <EditText
+
+                            android:id="@+id/etBerat"
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+
+                            android:background="@android:color/transparent"
+
+                            android:hint="Contoh : 2.5 Kg"
+
+                            android:inputType="numberDecimal"
+
+                            android:textSize="15sp"
+
+                            android:padding="5dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+
+                    android:text="Tanggal"
+
+                    android:textColor="#1B5E20"
+
+                    android:textSize="15sp"
+
+                    android:textStyle="bold"/>
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="60dp"
+
+                    android:layout_marginTop="8dp"
+
+                    app:cardCornerRadius="16dp"
+
+                    app:cardElevation="2dp"
+
+                    app:cardBackgroundColor="#F8FFF8">
+
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+
+                        android:gravity="center_vertical"
+
+                        android:paddingHorizontal="15dp">
+
+
+
+                        <TextView
+
+                            android:text="📅"
+
+                            android:textSize="23sp"
+
+                            android:layout_width="40dp"
+
+                            android:layout_height="wrap_content"/>
+
+
+
+
+                        <EditText
+
+                            android:id="@+id/etTanggal"
+
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+
+                            android:background="@android:color/transparent"
+
+                            android:hint="Pilih tanggal"
+
+                            android:focusable="false"
+
+                            android:textSize="15sp"
+
+                            android:padding="5dp"/>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#2E7D32">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="✓"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="UPDATE DATA"
+                        android:textColor="#FFFFFF"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_margin="20dp"
+
+            app:cardCornerRadius="20dp"
+
+            app:cardElevation="4dp"
+
+            app:cardBackgroundColor="#E8F5E9">
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+
+                android:gravity="center_vertical"
+
+                android:padding="18dp">
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="45dp"
+
+                    android:layout_height="45dp"
+
+                    app:cardCornerRadius="25dp"
+
+                    app:cardBackgroundColor="#FFFFFF"
+
+                    app:cardElevation="0dp">
+
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+
+                        android:text="i"
+
+                        android:textSize="25sp"
+
+                        android:textStyle="bold"
+
+                        android:textColor="#2E7D32"
+
+                        android:gravity="center"/>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+
+                    android:layout_marginStart="15dp"
+
+                    android:text="Pastikan data yang diperbarui sudah benar agar statistik sampah tetap akurat."
+
+                    android:textColor="#1B5E20"
+
+                    android:textSize="13sp"/>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="120dp"
+
+            android:background="#2E7D32"
+
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="♻ Manajemen Sampah Digital"
+
+                android:textColor="#FFFFFF"
+
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+
+                android:text="Monitoring Sampah Digital"
+
+                android:textColor="#D7F5DD"
+
+                android:textSize="13sp" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+
+                android:text="Version 1.0"
+
+                android:textColor="#C8E6C9"
+
+                android:textSize="12sp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
